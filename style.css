@@ -111,12 +111,12 @@ margin-left: 75%;
 .about{
     display:block:
     
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 1rem;
     font-family: 'Caveat', cursive;
 }
 .about h1{
-    margin-left: 10%;
+    margin-left: 20%;
     color: darkblue;
 }
 .about ul li p {
