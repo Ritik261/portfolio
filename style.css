@@ -10,21 +10,21 @@
     
     width: 100%;
     height:100%;
-    background:white;
+    background:rgb(244, 229, 229);
     margin-top: 0px;
-    background-color: mistyrose;
+    background-color: #faae7b;
      }
 
 nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width:100%;
     
     padding: 0px 0px;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(185, 184, 184);
+    background-color: #868bba35;
 }
 nav ul li{
     display: inline-block;
@@ -41,6 +41,7 @@ nav ul li a:hover{
     color: rgba(255, 255, 255, 0.909);
 }
 .detail{
+    display:block;
     margin-left: 27%;
     margin-top: 8%;
     font-size: 15px;
@@ -58,7 +59,7 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 span{
-    color:orange;
+    color:red;
 
 }
 .detail p{
@@ -108,21 +109,23 @@ margin-left: 75%;
     height: 200px;
 }
 .about{
+    display:block:
     
-    margin-left: 45vh;
-    margin-top: 20px;
+    margin-left: 10%;
+    margin-top: 1rem;
     font-family: 'Caveat', cursive;
 }
 .about h1{
-    margin-left: 45vh;
+    margin-left: 10%;
     color: darkblue;
 }
 .about ul li p {
     color: black;
 }
 .portfolio{
-    margin-top: 20px;
-    margin-left: 78vh;
+   margin-top: 1rem;
+    margin-left: 30rem;
+    margin-right:30rem ;
 }
 .detail a{
     background: #212121;
