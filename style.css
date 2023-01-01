@@ -10,9 +10,9 @@
     
     width: 100%;
     height:100%;
-    background:rgb(244, 229, 229);
+    background: linear-gradient(to top left, #ffffffff,#ffffff33);
     margin-top: 0px;
-    background-color: #faae7b;
+    background: linear-gradient(to top left,#3ed8ff,#a8f5ff);
      }
 
 nav{
@@ -24,7 +24,7 @@ nav{
     padding: 0px 0px;
     align-items: center;
     justify-content: space-between;
-    background-color: #868bba35;
+    background-color:#868bba35;
 }
 nav ul li{
     display: inline-block;
@@ -38,10 +38,11 @@ nav ul li a{
     font-size: 16px;
 }
 nav ul li a:hover{
-    color: rgba(255, 255, 255, 0.909);
+    color: rgba(247, 246, 246, 0.909);
+    font: fantasy;
 }
 .detail{
-    display:block;
+    display: block;
     margin-left: 27%;
     margin-top: 8%;
     font-size: 15px;
@@ -109,8 +110,7 @@ margin-left: 75%;
     height: 200px;
 }
 .about{
-    display:block:
-    
+    display: block;
     margin-left: 20%;
     margin-top: 1rem;
     font-family: 'Caveat', cursive;
@@ -123,7 +123,7 @@ margin-left: 75%;
     color: black;
 }
 .portfolio{
-   margin-top: 1rem;
+    margin-top: 1rem;
     margin-left: 30rem;
     margin-right:30rem ;
 }
